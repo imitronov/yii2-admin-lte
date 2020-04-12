@@ -1,0 +1,28 @@
+{
+    "name": "imitronov/yii2-admin-lte",
+    "description": "AdminLTE template for Yii2 framework",
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Ivan Mitronov",
+            "email": "imitronov@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "2.*",
+        "yiisoft/yii2-bootstrap4": "~2.0.8",
+        "almasaeed2010/adminlte": "<4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "imitronov\\yii2-admin-lte\\": ""
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
+}
