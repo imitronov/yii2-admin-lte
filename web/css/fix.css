@@ -1,0 +1,47 @@
+.glyphicon {
+    font-family: "Font Awesome 5 Free";
+}
+.glyphicon-eye-open:before {
+    content: "\f06e";
+    color: var(--success);
+}
+.glyphicon-pencil:before {
+    content: "\f044";
+    color: var(--primary);
+}
+.glyphicon-trash:before {
+    content: "\f2ed";
+    color: var(--danger);
+}
+.grid-view .summary, .grid-view .pagination {
+    padding: 1rem 1.25rem;
+    font-size: .8rem;
+    opacity: .75;
+    text-align: right;
+    margin: 0;
+    height: 50px;
+}
+.grid-view .pagination {
+    padding: .5rem 1.25rem;
+}
+.grid-view .table, .detail-view .table {
+    margin-bottom: 0;
+}
+.grid-view .table td {
+    border-bottom: 1px solid rgba(0,0,0,.03);
+}
+.grid-view .filters {
+    background: rgba(255,255,255,.5);
+}
+.grid-view thead {
+    background: rgba(0,0,0,.03);
+}
+.grid-view td:last-of-type {
+    text-align: right;
+}
+.detail-view .table-striped tbody tr:nth-of-type(odd){
+    background: rgba(0,0,0,.015);
+}
+.table-hover tbody tr:hover {
+    background: rgba(0, 0, 0, .05) !important;
+}

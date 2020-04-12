@@ -12,11 +12,13 @@
     "require": {
         "yiisoft/yii2": "2.*",
         "yiisoft/yii2-bootstrap4": "~2.0.8",
-        "almasaeed2010/adminlte": "<4.0"
+        "almasaeed2010/adminlte": "<4.0",
+        "rmrevin/yii2-fontawesome": "^3.4.0",
+        "yii-ui/yii2-overlay-scrollbars-asset-bundle": "^1.0.2"
     },
     "autoload": {
         "psr-4": {
-            "imitronov\\yii2-admin-lte\\": ""
+            "imitronov\\yii2AdminLte\\": ""
         }
     },
     "repositories": [
