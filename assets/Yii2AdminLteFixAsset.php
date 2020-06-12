@@ -8,7 +8,7 @@ use yii\web\AssetBundle;
  * AdminLte AssetBundle
  * @since 0.1
  */
-class AdminLteAsset extends AssetBundle
+class Yii2AdminLteFixAsset extends AssetBundle
 {
     public $sourcePath = '@vendor/imitronov/yii2-admin-lte/web';
     public $css = [
